@@ -11,7 +11,7 @@ const search_res = document.getElementById("search_res");
 const total_records = document.getElementById("total_records");
 
 // initially get fav movies
-getMovies(APIURL);
+fetchMovies(APIURL);
 
 async function getMovies(url) {
     const resp = await fetch(url);
