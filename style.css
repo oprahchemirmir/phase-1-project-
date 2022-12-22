@@ -6,12 +6,6 @@
 ::-webkit-scrollbar {
     width: 10px;
   }
-  
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background-color: #373c75;
-    border-radius: 5px;
-  }
 
 
 
