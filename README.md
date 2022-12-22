@@ -12,7 +12,8 @@ change directory into the folder by
  `cd phase-1-project-`
  to open the code in visual studio code run by running 
  `code .`
-install `live server ` and go live to view the website in the browser
+install `live server ` and go live to view the html file in the browser
+
 # author
 this project is contributed to by 
 oprah chemirmir
