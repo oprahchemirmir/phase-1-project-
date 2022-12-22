@@ -12,11 +12,7 @@
     background-color: #373c75;
     border-radius: 5px;
   }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #373c80;
-  }
+
 
 
 body {
