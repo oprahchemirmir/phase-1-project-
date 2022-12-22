@@ -7,11 +7,6 @@
     width: 10px;
   }
   
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background: transparent;
-  }
-  
   /* Handle */
   ::-webkit-scrollbar-thumb {
     background-color: #373c75;
