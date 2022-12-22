@@ -1,6 +1,7 @@
 # movie-app
 # description
-this app allows users to search there favourite movies,check the rating of the movie and also view the posters of the movies that they had searched for.
+this app allows users to search there favourite movies,check the rating of the movie and also view the posters of the movies they searched
+
 
 # project setup
 alternative 1
