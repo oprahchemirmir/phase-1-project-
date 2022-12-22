@@ -47,10 +47,6 @@ header {
     color: #7378c5;
 }
 
-.search:focus {
-    background-color: #22254b;
-    outline: none;
-}
 
 main {
     display: flex;
