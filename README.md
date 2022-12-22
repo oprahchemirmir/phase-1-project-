@@ -7,9 +7,7 @@ use the link below to view the program
 `https://oprahchemirmir.github.io/phase-1-project-/`
 alterntive 2
 to use this repo your machine requires some few steps
- open the terminal/command line interface in your computer 
- clone the repo by doing the following
-git clone `https://github.com/oprahchemirmir/phase-1-project-`
+ open the terminal/command line interface in your computer .
 change directory into the folder by
  `cd phase-1-project-`
  to open the code in visual studio code run by running 
