@@ -64,7 +64,7 @@ form.addEventListener("submit", (e) => {
 
     if (searchTerm) {
         getMovies(SEARCHAPI + searchTerm);
-        search.value = searchTerm;
+
         search_res.innerHTML = "Search Result for "+searchTerm;
     } else {
         getMovies(APIURL);
