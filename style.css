@@ -104,9 +104,6 @@ main {
     color: orange;
 }
 
-.movie-info span.red {
-    color: rgb(189, 42, 42);
-}
 
 #search_res {
     padding: 0px 20px;
