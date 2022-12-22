@@ -8,7 +8,6 @@ const main = document.getElementById("main");
 const form = document.getElementById("form");
 const search = document.getElementById("search");
 const search_res = document.getElementById("search_res");
-const total_records = document.getElementById("total_records");
 
 // initially get fav movies
 fetchMovies(APIURL);
