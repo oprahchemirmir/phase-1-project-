@@ -15,7 +15,6 @@ fetchMovies(APIURL);
 
 async function getMovies(url) {
     const resp = await fetch(url);
-    const respData = await resp.json();
 
     if (respData.results.length == 0) {
         search_res.innerHTML = "No Results Founds";
