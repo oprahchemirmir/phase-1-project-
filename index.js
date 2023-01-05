@@ -41,7 +41,6 @@ function loadMovieDetails(){
 
 function showMovies(movies) {
     // clear main
-    main.innerHTML = "";
     movies.forEach((movie, index) => {
         const movieEl = document.createElement("div");
         movieEl.classList.add("movie");
