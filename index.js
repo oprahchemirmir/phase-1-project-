@@ -26,6 +26,18 @@ async function fetchMovies(url) {
 
     showMovies(respData.results);
 }
+function loadMovieDetails(){
+    const searchListMovies = searchList.querySelectorAll('.search-list-item');
+    searchListMovies.forEach(movie => {
+        movie.addEventListener('click', async () => {
+            searchList.classList.add('hide-search-list');
+            movieSearchBox.value = "";
+            const result = await fetch(`http://www.omdbapi.com/?i=${movie.dataset.id}&apikey=fc1fef96`);
+            const movieDetails = await result.json();
+            displayMovieDetails(movieDetails);
+        });
+    });
+}
 
 function showMovies(movies) {
     // clear main
@@ -79,5 +91,12 @@ form.addEventListener("submit", (e) => {
     } else {
         getMovies(APIURL);
     }
+    
 
+});
+
+window.addEventListener('click', (event) => {
+    if(event.target.className != "form-control"){
+        searchList.classList.add('hide-search-list');
+    }
 });
